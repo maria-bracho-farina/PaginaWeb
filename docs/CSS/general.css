@@ -146,3 +146,28 @@ label {
     cursor: pointer;
     font-size: 16px;
 }
+
+.menu-navegacion {
+    background-color: #333; /* Color de fondo oscuro */
+    padding: 10px 0;
+}
+
+.menu-navegacion ul {
+    list-style: none; /* Quita los puntos de la lista */
+    display: flex;    /* Pone los elementos en fila */
+    justify-content: center; /* Centra el menú */
+    margin: 0;
+    padding: 0;
+}
+
+.menu-navegacion li {
+    margin: 0 20px;
+}
+
+.menu-navegacion a {
+    text-decoration: none; /* Quita el subrayado */
+    color: white;          /* Color del texto */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: color 0.3s;
+}
