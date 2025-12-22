@@ -77,11 +77,11 @@ h1,h2,h3{
 
 .foto {
     background-color: #f9f9f9; 
-    padding: 10px;
+    padding: 8px;
     border: 1px solid #ccc;
     display: inline-block;    
     text-align: center;       
-    margin: 15px;
+    margin: 10px;
 }
 
 .foto img {
@@ -91,7 +91,7 @@ h1,h2,h3{
 
 .foto-piloto img{
     width: 100%;        /* Ocupa todo el ancho del contenedor padre */
-    height: 200px;
+    height: 175px;
 }
 
 .foto-piloto figcaption {
