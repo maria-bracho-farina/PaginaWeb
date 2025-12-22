@@ -85,8 +85,20 @@ h1,h2,h3{
 }
 
 .foto img {
-    width: 100%;        
+    width: 200px;          
+    height: auto;
+}
+
+.foto-piloto img{
+    width: 100%;        /* Ocupa todo el ancho del contenedor padre */
     height: 200px;
+}
+
+.foto-piloto figcaption {
+    margin-top: 8px;
+    font-size: 0.9em;         /* Texto un poco más pequeño que el normal */
+    color: #555;              /* Color gris oscuro */
+    font-style: italic;       /* Letra cursiva para que parezca leyenda */
 }
 
 .foto figcaption {
