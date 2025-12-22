@@ -1,4 +1,11 @@
 body {
+    background-color: #090909; /* Un color lila suave como el de la imagen */
+    margin: 0;
+    padding: 40px 0; /* Espacio arriba y abajo para que no pegue al borde */
+    font-family: Arial, sans-serif;
+}
+
+.bodyf1 {
     background-image: url('../imagenes/descarga.jpg');
     background-color: #090909; /* Un color lila suave como el de la imagen */
     margin: 0;
@@ -19,7 +26,7 @@ body {
 }
 
 /* 3. Ajuste de la tabla para que no sea oscura */
-table {
+.tablef1 {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
@@ -106,4 +113,52 @@ h1,h2,h3{
     font-size: 0.9em;         /* Texto un poco más pequeño que el normal */
     color: #555;              /* Color gris oscuro */
     font-style: italic;       /* Letra cursiva para que parezca leyenda */
+}
+
+#contacto {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+}
+
+/* Botón de envío */
+.boton-enviar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.boton-enviar:hover {
+    background-color: #45a049;
+}
+
+.boton-enviar:active {
+    background-color: #3e8e41;
 }
