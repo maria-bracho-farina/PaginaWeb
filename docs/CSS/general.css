@@ -5,6 +5,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.bodydegree {
+    background-color: #ffffff; /* Un color lila suave como el de la imagen */
+    margin: 0;
+    padding: 40px 0; /* Espacio arriba y abajo para que no pegue al borde */
+    font-family: Arial, sans-serif;
+}
+
 /* Los que tienen f1 en el nombre de la clase son especificos para la pagina de topic*/
 .bodyf1 {
     background-image: url('../imagenes/descarga.jpg');
@@ -64,6 +71,11 @@ td {
 li{
     color: #00ff00;
     font-weight: bold;
+}
+
+.li a {
+    color: black !important;       /* Cambia 'black' por el color que quieras */
+    text-decoration: none !important; 
 }
 
 p{
@@ -180,4 +192,47 @@ label {
     font-family: Arial, sans-serif;
     font-weight: bold;
     transition: color 0.3s;
+}
+
+.menu-vertical a{
+    text-decoration: none; /* Quita el subrayado */
+    color: white;          /* Color del texto */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu-vertical li{
+    list-style: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    list-style: none;
+    text-decoration: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    background: #2c3e50;
+}
+
+/* Empuja el contenido a la derecha para que no lo tape el menú */
+main {
+    margin-left: 220px; 
+    padding: 20px;
+}
+
+/* Estiliza las secciones para que tengan espacio */
+section {
+    min-height: 100vh; /* Cada sección ocupa al menos toda la pantalla */
+    padding: 50px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Truco para que el scroll sea suave y no salte de golpe */
+html {
+    scroll-behavior: smooth;
 }
