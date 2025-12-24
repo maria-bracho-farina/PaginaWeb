@@ -130,12 +130,12 @@ h1,h2,h3,h4{
 }
 
 #contacto {
-    max-width: 500px;
-    margin: 40px auto;
+    max-width: 300px;
+    margin: 30px auto;
     padding: 20px;
     font-family: Arial, sans-serif;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    border: 0px solid #ddd;
+    border-radius: 6px;
 }
 
 .campo {
