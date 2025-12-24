@@ -5,14 +5,16 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/*Un body específico para la parte del grado*/
 .bodydegree {
     background-color: #ffffff; 
     margin: 0;
-    padding: 40px 0; /* Espacio arriba y abajo para que no pegue al borde */
+    padding: 40px 0; 
     font-family: Arial, sans-serif;
 }
 
-/* Los que tienen f1 en el nombre de la clase son especificos para la pagina de topic*/
+/* Los que tienen f1 en el nombre de la clase son específicos para la pagina de topic*/
+/*Un body específico para f1 por la imagen de fondo*/
 .bodyf1 {
     background-image: url('../imagenes/descarga.jpg');
     background-color: #090909; 
@@ -23,7 +25,7 @@ body {
 
 /*Contenedor tipo tarjeta blanca*/ 
 .contenedor-principal {
-    background-color: #ffffff; /* Fondo blanco para el texto */
+    background-color: #ffffff; /* Fondo blanco para podeer ver bien el texto */
     width: 90%;
     max-width: 900px; /* Ancho máximo */
     margin: 0 auto; /* Centra el contenedor horizontalmente */
@@ -38,7 +40,6 @@ body {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    color: #333; /* Texto oscuro para que se lea en el fondo blanco */
 }
 
 th {
@@ -53,6 +54,7 @@ td {
     border-bottom: 1px solid #f1f1f1;
 }
 
+/*clase hecha para el resto de etiquetas li que no sean parte de topic, deberia de ser al revés pero primero realicé el topic e ir cambiando línea por línea para añadir una clase específica se hizo complicado*/
 .li{
     color:#333;
     line-height: 1.6;
@@ -68,6 +70,7 @@ li{
     text-decoration: none; 
 }
 
+/*Justificar todos los párrafos para que se vean bonitos*/
 p{
     text-align: justify;
     line-height: 1.6;
@@ -80,9 +83,10 @@ h1,h2,h3,h4{
 .centrar {
     display: block;    
     margin-left: auto; 
-    margin-right: auto;
-           
+    margin-right: auto;        
 }
+
+/*Creación de galeria de imagenes (para que estén horizontales)*/
 .galeria {
     display: flex;          
     justify-content: center; 
@@ -155,12 +159,13 @@ label {
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
+    cursor: pointer; /*Cambia el cursor*/
     font-size: 16px;
 }
 
+/*Menú de navegación horizontal*/
 .menu-navegacion {
-    background-color: #333; /* Color de fondo oscuro */
+    background-color: #333; 
     padding: 10px 0;
 }
 
@@ -184,18 +189,19 @@ label {
     transition: color 0.3s;
 }
 
+/*Menú de navegación vertical para la parte de grado*/
 .menu-vertical a{
-    text-decoration: none; /* Quita el subrayado */
-    color: white;          /* Color del texto */
+    text-decoration: none; 
+    color: white;          
     font-family: Arial, sans-serif;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 .menu-vertical li{
-    list-style: none; /* Quita los puntos de la lista */
-    margin: 0;
-    padding: 0;
+    list-style: none;
+    margin: 2;
+    padding: 2;
 }
 
 .sidebar {
@@ -211,7 +217,7 @@ label {
 
 /* Empuja el contenido a la derecha para que no lo tape el menú */
 main {
-    margin-left: 220px; 
+    margin-left: 225px; 
     padding: 20px;
 }
 
@@ -222,7 +228,7 @@ section {
     border-bottom: 1px solid #ddd;
 }
 
-/* Scroll suave y no salte de golpe */
+/* Scroll suave para que no salte de golpe a la siguiente sección */
 html {
     scroll-behavior: smooth;
 }
