@@ -1,12 +1,12 @@
 body {
-    background-color: #090909; /* Un color lila suave como el de la imagen */
+    background-color: #090909;
     margin: 0;
     padding: 40px 0; /* Espacio arriba y abajo para que no pegue al borde */
     font-family: Arial, sans-serif;
 }
 
 .bodydegree {
-    background-color: #ffffff; /* Un color lila suave como el de la imagen */
+    background-color: #ffffff; 
     margin: 0;
     padding: 40px 0; /* Espacio arriba y abajo para que no pegue al borde */
     font-family: Arial, sans-serif;
@@ -15,7 +15,7 @@ body {
 /* Los que tienen f1 en el nombre de la clase son especificos para la pagina de topic*/
 .bodyf1 {
     background-image: url('../imagenes/descarga.jpg');
-    background-color: #090909; /* Un color lila suave como el de la imagen */
+    background-color: #090909; 
     margin: 0;
     padding: 40px 0; /* Espacio arriba y abajo para que no pegue al borde */
     font-family: Arial, sans-serif;
@@ -64,8 +64,8 @@ li{
 }
 
 .li a {
-    color: black !important;       /* Cambia 'black' por el color que quieras */
-    text-decoration: none !important; 
+    color: black;
+    text-decoration: none; 
 }
 
 p{
@@ -119,14 +119,14 @@ h1,h2,h3,h4{
     margin-top: 8px;
     font-size: 0.9em;         /* Texto un poco más pequeño que el normal */
     color: #555;              /* Color gris oscuro */
-    font-style: italic;       /* Letra cursiva para que parezca leyenda */
+    font-style: italic;
 }
 
 .foto figcaption {
     margin-top: 8px;
     font-size: 0.9em;         /* Texto un poco más pequeño que el normal */
     color: #555;              /* Color gris oscuro */
-    font-style: italic;       /* Letra cursiva para que parezca leyenda */
+    font-style: italic;      
 }
 
 #contacto {
@@ -222,7 +222,7 @@ section {
     border-bottom: 1px solid #ddd;
 }
 
-/* Truco para que el scroll sea suave y no salte de golpe */
+/* Scroll suave y no salte de golpe */
 html {
     scroll-behavior: smooth;
 }
