@@ -12,8 +12,9 @@ Este proyecto es una página web estática desarrollada para la asignatura de Fu
 
 - **Enlace a las url de las páginas de los otros compañeros:** Cuando se coloca la ruta directa (la que ellos me enviaron) sin el index.html despúes del último / no llevaba a sus páginas salía error 404 Page not found, se solucionó añadiendo lo mencionado.
 
--**Errores de visualización (relacionados con CSS):** Como hacer que el menú vertical y horizontal se vieran bonitos, como hacer para que existieran imágenes de manera horizontal (con varias en una misma fila) sin que se vieran mal, división en una misma página. Todo esto se solucionó buscando información por internet y haciendo pruebas de ensayo y error.  
+- **Errores de visualización (relacionados con CSS):** Como hacer que el menú vertical y horizontal se vieran bonitos, como hacer para que existieran imágenes de manera horizontal (con varias en una misma fila) sin que se vieran mal, división en una misma página. Todo esto se solucionó buscando información por internet y haciendo pruebas de ensayo y error.  
 
 ## Conclusiones
 El desarrollo de este sitio permitió entender la importancia de la estructura de carpetas en un proyecto web y el flujo de trabajo básico con Git y GitHub para el despliegue de sitios en vivo, así como aprender el como usar de manera básica el HTML5 y el CSS3.
+El internet es la mejor fuente de información para el aprendizaje de estos dos lenguajes, solo con buscar salen las soluciones a lo que se plantea (lo errores, que algo se vea de alguna forma) 
 
