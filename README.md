@@ -46,9 +46,8 @@ Empecé con lo básico, de ahí mejoré el aspecto visual general y despúes el 
 
 - **Errores de visualización (relacionados con CSS):** Como hacer que el menú vertical y horizontal se vieran bonitos, como hacer para que existieran imágenes de manera horizontal (con varias en una misma fila) sin que se vieran mal, división en una misma página. Todo esto se solucionó buscando información por internet y haciendo pruebas de ensayo y error.  
 
-- **Que el formulario al darle enviar no saliera un error en la página**
+- **Que el formulario al darle enviar no saliera un error en la página:** Se solucionó con: "action="#"".
 
 ## Conclusiones
 El desarrollo de este sitio permitió entender la importancia de la estructura de carpetas en un proyecto web y el flujo de trabajo básico con Git y GitHub para el despliegue de sitios en vivo, así como aprender el como usar de manera básica el HTML5 y el CSS3.
-El internet es la mejor fuente de información para el aprendizaje de estos dos lenguajes, solo con buscar salen las soluciones a lo que se plantea (lo errores, que algo se vea de alguna forma) 
-
+El internet es la mejor fuente de información para el aprendizaje de estos dos lenguajes, solo con buscar salen las soluciones a lo que se plantea (lo errores, que algo se vea de alguna forma, etc.). 
