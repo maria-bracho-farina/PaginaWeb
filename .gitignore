@@ -1,0 +1,13 @@
+# Extensiones de archivos temporales de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Carpetas de editores de código
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de registro (logs)
+*.log
