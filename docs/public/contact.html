@@ -19,11 +19,16 @@
     </ul>
     </nav>
   <div class="contenedor-principal">
+    <!--Se dividen en class tipo campo, para poder aplicarle un margen-->
     <section id="contacto">
         <h2>Ponte en contacto</h2>
+        <!--el action="#"" le indica al navegador que cuando se envíe el formulario se quede en la oágina en la que está-->
         <form action="#" method="get" autocomplete="off">
+            <!--El nombre y el correo son campos necesarios para poder "enviar" el formulario-->
             <div class="campo">
+                <!--El atributo for se usa para vincular a un elemento del formulario, haciendo que el texto de la etiqueta atúe como sis se hiciera clic en el cmapo asociado, no es obligatorio pero mejora un poco la experiencia-->
                 <label for="nombre">De (Nombre):</label>
+                <!--La id es para asociarla con el título (el for)-->
                 <input type="text" id="nombre" name="nombre" required>
             </div>
 
@@ -34,14 +39,16 @@
 
             <div class="campo">
                 <label for="tema">Tema/título:</label>
+                <!--Se hace un cuadro de texto de 1 fila-->
                 <textarea id="tema" name="tema" rows="1"></textarea>
             </div>
 
             <div class="campo">
                 <label for="mensaje">Mensaje:</label>
+                <!--Se hace un cuadro de texto de 4 filas-->
                 <textarea id="mensaje" name="mensaje" rows="4"></textarea>
             </div>
-
+            <!--Se coloca el bóton de enviar el cual tiene su propio estilo para que se vea mejor-->
             <button type="submit" class="boton-enviar">Enviar Mensaje</button>
         </form>
     </section>

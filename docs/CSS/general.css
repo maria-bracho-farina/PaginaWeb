@@ -1,11 +1,11 @@
 body {
     background-color: #090909;
     margin: 0;
-    padding: 40px 0; /* Espacio arriba y abajo para que no pegue al borde */
+    padding: 40px 0;        /* Espacio arriba y abajo para que no pegue al borde */
     font-family: Arial, sans-serif;
 }
 
-/*Un body específico para la parte del grado*/
+/* Un body específico para la parte del grado */
 .bodydegree {
     background-color: #ffffff; 
     margin: 0;
@@ -13,35 +13,36 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Los que tienen f1 en el nombre de la clase son específicos para la pagina de topic*/
-/*Un body específico para f1 por la imagen de fondo*/
+/* Los que tienen f1 en el nombre de la clase son específicos para la pagina de topic */
+/* Un body específico para f1 por la imagen de fondo */
 .bodyf1 {
     background-image: url('../imagenes/descarga.jpg');
     background-color: #090909; 
     margin: 0;
-    padding: 40px 0; /* Espacio arriba y abajo para que no pegue al borde */
+    padding: 40px 0;        
     font-family: Arial, sans-serif;
 }
 
-/*Contenedor tipo tarjeta blanca*/ 
+/* Contenedor tipo tarjeta blanca */ 
 .contenedor-principal {
-    background-color: #ffffff; /* Fondo blanco para podeer ver bien el texto */
+    background-color: #ffffff;      /* Fondo blanco para podeer ver bien el texto */
     width: 90%;
-    max-width: 900px; /* Ancho máximo */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    max-width: 900px;       /* Ancho máximo */
+    margin: 0 auto;     /* Centra el contenedor horizontalmente */
     padding: 20px;
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Sombra suave para dar profundidad */
-    border-top: 10px solid #b70707; /* Barra de color superior característica */
+    border-radius: 8px;     /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);     /* Sombra suave para dar profundidad */
+    border-top: 10px solid #b70707;     /* Barra de color superior característica */
 }
 
- 
+
 .tablef1 {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: collapse;      /* Hace que en caso de que haya otra tabla pegada compartan el mismo borde */
     margin-top: 20px;
 }
 
+/* th y td hacen que el texto dentro de la tabla se vea mejor con un borde y sin estar pegado a los bordes */
 th {
     border-bottom: 2px solid #eee;
     padding: 10px;
@@ -54,15 +55,16 @@ td {
     border-bottom: 1px solid #f1f1f1;
 }
 
-/*clase hecha para el resto de etiquetas li que no sean parte de topic, deberia de ser al revés pero primero realicé el topic e ir cambiando línea por línea para añadir una clase específica se hizo complicado*/
-.li{
-    color:#333;
-    line-height: 1.6;
-}
-
+/* Estilo para las etiquetas li que se encuentran en la página de Topic */
 li{
     color: #00ff00;
     font-weight: bold;
+}
+
+/* Clase hecha para el resto de etiquetas li que no sean parte de topic, deberia de ser al revés pero primero realicé el topic e ir cambiando línea por línea para añadir una clase específica se hizo complicado */
+.li{
+    color:#333;
+    line-height: 1.6;
 }
 
 .li a {
@@ -70,23 +72,25 @@ li{
     text-decoration: none; 
 }
 
-/*Justificar todos los párrafos para que se vean bonitos*/
+/* Justificar todos los párrafos para que se vean bonitos */
 p{
     text-align: justify;
     line-height: 1.6;
 }
 
+/* Que todos los headers estén en  negrita */ 
 h1,h2,h3,h4{
     font-weight: bold;
 }
 
+/* Estilo que centra lo que sea de la clase centrar */
 .centrar {
     display: block;    
     margin-left: auto; 
     margin-right: auto;        
 }
 
-/*Creación de galeria de imagenes (para que estén horizontales)*/
+/* Creación de galeria de imagenes (para que estén horizontales) */
 .galeria {
     display: flex;          
     justify-content: center; 
@@ -94,11 +98,13 @@ h1,h2,h3,h4{
     margin-bottom: 30px;             
 }
 
+/* Modificación del tamaño de la parte de img de la galería */
 .galeria img {
     width: 200px;           
     height: auto;
     border-radius: 8px;     
 }
+
 
 .foto {
     background-color: #f9f9f9; 
@@ -116,7 +122,7 @@ h1,h2,h3,h4{
 
 .foto-piloto img{
     width: 100%;        /* Ocupa todo el ancho del contenedor padre */
-    height: 175px;
+    height: 175px;      /* Hace que todos tengan una misma altura */
 }
 
 .foto-piloto figcaption {
@@ -133,6 +139,7 @@ h1,h2,h3,h4{
     font-style: italic;      
 }
 
+/* Estilo general para el formulario */
 #contacto {
     max-width: 300px;
     margin: 30px auto;
@@ -147,7 +154,7 @@ h1,h2,h3,h4{
 }
 
 label {
-    display: block;
+    display: block;     /* Hace que cada cuadro de texto debajo de cada label */
     margin-bottom: 5px;
     font-weight: bold;
 }
@@ -159,7 +166,7 @@ label {
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    cursor: pointer; /*Cambia el cursor*/
+    cursor: pointer;        /* Cambia el cursor cuando se encuentra encima del bóton */
     font-size: 16px;
 }
 
@@ -170,9 +177,9 @@ label {
 }
 
 .menu-navegacion ul {
-    list-style: none; /* Quita los puntos de la lista */
-    display: flex;    /* Pone los elementos en fila */
-    justify-content: center; /* Centra el menú */
+    list-style: none;       /* Quita los puntos de la lista */
+    display: flex;      /* Pone los elementos en fila */
+    justify-content: center;        /* Centra el menú */
     margin: 0;
     padding: 0;
 }
@@ -182,14 +189,14 @@ label {
 }
 
 .menu-navegacion a {
-    text-decoration: none; /* Quita el subrayado */
+    text-decoration: none;      /* Quita el subrayado */
     color: white;          /* Color del texto */
     font-family: Arial, sans-serif;
     font-weight: bold;
     transition: color 0.3s;
 }
 
-/*Menú de navegación vertical para la parte de grado*/
+/* Menú de navegación vertical para la parte de grado */
 .sidebar {
     list-style: none;
     text-decoration: none;
