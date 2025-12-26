@@ -190,6 +190,17 @@ label {
 }
 
 /*Menú de navegación vertical para la parte de grado*/
+.sidebar {
+    list-style: none;
+    text-decoration: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    background: #000000;
+}
+
 .menu-vertical a{
     text-decoration: none; 
     color: white;          
@@ -202,17 +213,6 @@ label {
     list-style: none;
     margin: 2;
     padding: 2;
-}
-
-.sidebar {
-    list-style: none;
-    text-decoration: none;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 200px;
-    height: 100vh;
-    background: #000000;
 }
 
 /* Empuja el contenido a la derecha para que no lo tape el menú */
