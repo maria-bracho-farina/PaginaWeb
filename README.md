@@ -5,7 +5,7 @@ Este proyecto es una página web estática desarrollada para la asignatura de Fu
 
 Está dividido en 7 páginas y un documento de estilo CSS, las páginas tiene un diseño basado en tarjetas estructurado en un contenedor principal, lo que permite un mejor enfoque de la información.
 
-Descripción de lo implementado en las páginas:
+Descripción de lo implementado en las páginas:  
 
 - Lo que hay en todas las páginas:
 
